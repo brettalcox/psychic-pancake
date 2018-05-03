@@ -4,6 +4,9 @@ import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
+/**
+ * Base entity to extend from. Gains uuid and {@link AbstractBuilder} for free
+ */
 @MappedSuperclass
 public abstract class AbstractEntity {
 
