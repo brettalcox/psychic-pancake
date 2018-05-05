@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -jar target/*.jar $JAR_OPTS $CLEARDB_DATABASE_URL $OPEN_WEATHER_APP_ID
